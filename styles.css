@@ -2,45 +2,63 @@
 
 
 body {
-	background-image: "./Images/star-background.jpg";
+	background: url("./Images/star-background.jpg");
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 }
 
-#Content {
-	border-left: 2px solid red;
-	border-right: 2px solid red;
-	border-bottom: 10px solid red;
-	border-top: 10px solid red;
+#content {
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	border-bottom: 10px solid white;
+	border-top: 10px solid white;
 	background: none;
 	margin: auto;
 	width: 950px;
-	border: 1px solid white; 
 }
 
-#Banner {
+#banner {
 	width: 950px;
 	height: 150px;
-	background-color: green;
 }
 
-.button {
-	border-radius: 10px;
-	border: 1px solid black;
-	width: 200px;
-	height: 30px;
-	text-align: center;
-	margin: auto;
-	display: inline-block;
+#nav {
+	padding: 0;
+	padding-top: 20px;
+	margin: 20px 10px 20px 10px;
 }
 
-#Wrapper {
+#nav li{
+	display: inline;	
+}
+
+#nav li a{
+	text-decoration: none;
+	color: #222940;
+	border: 2px solid #222940;
+	background-color: #F2F2F2;
+	padding: 10px 30px 10px 30px;
+	margin-right: 40px;
+}
+
+#nav li a:hover{
+	background-color: #222940;
+	border: 2px solid #F2F2F2;
+	color: #F2F2F2;
+		
+}
+
+#editable {
+	margin: 20px;
+	background-color: #F2F2F2;
+	border: 2px solid black;
+	border-radius: 10px;	
+}
+
+
+#wrapper {
 	background-color: #A69F8A;
 	margin:20px;
 }
 
-#Page {
-	border-radius: 15px;
-	border: 1px solid black;
-	margin: auto;
-}
+
