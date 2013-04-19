@@ -1,0 +1,56 @@
+/* CSS Document */
+
+.borders {
+	background-color: black;
+	width: 100%;
+	height: 15px;
+}
+
+body {
+	background-image: "./Images/star-background.jpg";
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#Content {
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	border-bottom: 10px solid red;
+	border-top: 10px solid red;
+	background: none;
+	margin: auto;
+	width: 950px;
+	border: 1px solid white; 
+}
+
+#Banner {
+	width: 950px;
+	height: 150px;
+	background-color: green;
+}
+
+.button {
+	border-radius: 10px;
+	border: 1px solid black;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+}
+
+#Wrapper {
+	background-color: #A69F8A;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	border-bottom: 10px solid red;
+	border-top: 10px solid red;
+}
+
+#Page {
+	border-radius: 15px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+p
