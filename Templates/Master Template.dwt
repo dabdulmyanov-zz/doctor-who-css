@@ -14,12 +14,15 @@
         <div ID="banner"><img src="../Images/banner.jpg" width="950" height="150" /></div>
         <div ID="wrapper">
         	<ul ID="nav">
-            	<li><a href="#">Home</a></li>
+            	<li><a href="../index.html">Home</a></li>
                 <li><a href="#">The Doctors</a></li>
-                <li><a href="#">Video</a></li>
+                <li><a href="./video.html">Video</a></li>
                 <li><a href="#">About Me</a></li>
-             </ul>
-            <div ID="editable">                                           </div>
+             </ul><h1>The Doctor Who Compendium</h1>
+            <div ID="editable">
+			<!-- TemplateBeginEditable name="Content" -->
+              <p>[This is placeholder content]</p>
+            <!-- TemplateEndEditable --></div>
       </div>
 	</div>
 </body>
