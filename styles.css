@@ -81,6 +81,8 @@ body {
 	align: top;
 	border-radius: 100%;
 	border: 1px solid black;
+	width: 135px;
+	height: 135px;
 }
 
 #doctor-selection{
